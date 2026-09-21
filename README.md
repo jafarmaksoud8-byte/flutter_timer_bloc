@@ -1,17 +1,38 @@
-# timer_app
+# 🌊 Flutter Ocean Timer App
 
-A new Flutter project.
+A sleek, modern countdown timer application built with **Flutter**, powered by the **BLoC (Business Logic Component)** state management pattern, and enhanced with beautiful wave animations.
 
-## Getting Started
+## ✨ Features
+- **BLoC Architecture**: Clean separation of business logic and UI using Events and States.
+- **Stream-Based Ticker**: Utilizes `Stream.periodic` for accurate second-by-second countdown management.
+- **Full Control**: Support for **Play**, **Pause**, **Resume**, and **Reset** operations seamlessly.
+- **Dynamic UI**: Responsive UI components reacting to state changes with custom wave backgrounds.
 
-This project is a starting point for a Flutter application.
+## 🛠️ Tech Stack & Packages
+- **Flutter & Dart**
+- **flutter_bloc** (State Management)
+- **wave** (Animated ocean wave background)
+- **meta** (Annotations)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📂 Project Architecture
+```text
+lib/
+│
+├── bloc/
+│   ├── timer_bloc.dart
+│   ├── timer_event.dart
+│   └── timer_state.dart
+│
+├── constant/
+│   └── app_color.dart
+│
+├── ui/
+│   ├── views/
+│   │   └── home_view.dart
+│   └── widgets/
+│       ├── button_widget.dart
+│       ├── ocean_wave_widget.dart
+│       ├── text_widget.dart
+│       └── timer_content_widget.dart
+│
+└── main.dart
