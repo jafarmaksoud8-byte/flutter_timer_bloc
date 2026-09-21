@@ -1,4 +1,7 @@
 # 🌊 Flutter Ocean Timer App
+<p align="center">
+  <img src="assets/images/timer_demo.gif" width="300" alt="Flutter Timer Demo">
+</p>
 
 A sleek, modern countdown timer application built with **Flutter**, powered by the **BLoC (Business Logic Component)** state management pattern, and enhanced with beautiful wave animations.
 
